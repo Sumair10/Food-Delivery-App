@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Login 09</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="resturantDashboard.css">
+	    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="/mainstyle.css">
+       
+    </head>
+    <body>
+    
+        <div class="mainDiv">
+            <div class="innerMainDiv">
+    
+                <!-- ------------ header --------- -->
+    
+                <div class="header">
+                    <nav class="navbar navbar-expand-md navbar-dark">
+                        <div class="container-fluid">
+                          <a class="navbar-brand" href="index.html"><img src="/images/logo.jpg" alt="" width="70px" height="70px"></a>
+                          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" >
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                
+                          <div class="collapse navbar-collapse" id="navbarsExample05">
+                            <ul class="nav navbar-nav ml-auto pl-lg-1 pl-0">
+                              <li class="nav-item">
+                                <a class="nav-link " href="index.html">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Pending</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Accepted</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Delivered</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#" onclick="logout()">Log Out</a>
+                              </li>
+                            </ul>
+                
+                            <ul class="navbar-nav ml-auto">
+                              <!-- <li class="nav-item cta-btn">
+                                <button class="btn btn-outline-light" >Add new item</button> 
+                              </li> -->
+                            </ul>
+                            
+                          </div>
+                        </div>
+                      </nav>
+                </div>
+                <!-- -------- getting started ---------- -->
+                <div class="getStart ">
+                    <h1><span class="span1">WELCOME <span id="resname"></span></span> <br><span class="span2 abc"> We are team of talented designers making websites with Bootstrap  We are team of talented designers making websites with Bootstrap</span></h1>
+                    <div class="btns">
+                        <a href="/resturant/addFoodForm/addFoodForm.html"><button class="btn btn-outline-light" >ADD NEW FOOD</button> </a>
+                    </div>               
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           
+              
+
+
+
+
+
+
+
+
+
+
+            
+            <!-- -------- middle div ---------- -->
+    
+            <div class="mid1" >
+                <div class="innerMid">
+                    <div class="team-boxed">
+                        <div class="container">
+                            <div class="intro">
+                                <h2 class="text-center span1">Items </h2>
+                                <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae.</p>
+                            </div>
+                            <div class="row people" id="displayCard">
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- Footer -->
+            <footer class="mid3 page-footer font-small mdb-color pt-4">
+    
+                <!-- Footer Links -->
+                <div class="container text-center text-md-left">
+            
+                <!-- Footer links -->
+                <div class="row text-center text-md-left mt-3 pb-3">
+            
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Company name</h6>
+                    <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+                        consectetur
+                        adipisicing elit.</p>
+                    </div>
+                    <!-- Grid column -->
+            
+                    <hr class="w-100 clearfix d-md-none">
+            
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+                    <p>
+                        <a href="#!">HTML</a>
+                    </p>
+                    <p>
+                        <a href="#!">CSS</a>
+                    </p>
+                    <p>
+                        <a href="#!">BOOTSTRAP</a>
+                    </p>
+                    <p>
+                        <a href="#!">JAVASCRIPT</a>
+                    </p>
+                    </div>
+                    <!-- Grid column -->
+            
+                    <hr class="w-100 clearfix d-md-none">
+            
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+                    <p>
+                        <a href="#!">Your Account</a>
+                    </p>
+                    <p>
+                        <a href="#!">Become an Affiliate</a>
+                    </p>
+                    <p>
+                        <a href="#!">Shipping Rates</a>
+                    </p>
+                    <p>
+                        <a href="#!">Help</a>
+                    </p>
+                    </div>
+            
+                    <!-- Grid column -->
+                    <hr class="w-100 clearfix d-md-none">
+            
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                    <p>
+                        <i class="fas fa-home mr-3"></i> Karachi, Sindh, Pakistan</p>
+                    <p>
+                        <i class="fas fa-envelope mr-3"></i> sumairzahid@gmail.com</p>
+                    <p>
+                        <i class="fas fa-phone mr-3"></i> + 92 340 2745818</p>
+                    <p>
+                        <i class="fas fa-print mr-3"></i> + 92 332 3206471</p>
+                    </div>
+                    <!-- Grid column -->
+            
+                </div>
+                <!-- Footer links -->
+            
+                <hr>
+            
+                <!-- Grid row -->
+                <div class="row d-flex align-items-center">
+            
+                    <!-- Grid column -->
+                    <div class="col-md-7 col-lg-8">
+            
+                    <!--Copyright-->
+                    <p class="text-center text-md-left">© 2020 Copyright
+                        <a href="https://mdbootstrap.com/">
+                        </a>
+                    </p>
+            
+                    </div>
+                    <!-- Grid column -->
+            
+                    <!-- Grid column -->
+                    <div class="col-md-5 col-lg-4 ml-lg-0">
+            
+                    <!-- Social buttons -->
+                    <div class="text-center text-md-right">
+                        <ul class="list-unstyled list-inline">
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                            <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                            <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                            <i class="fab fa-google-plus-g"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                            <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        </ul>
+                    </div>
+            
+                    </div>
+                    <!-- Grid column -->
+            
+                </div>
+                <!-- Grid row -->
+            
+                </div>
+                <!-- Footer Links -->
+            
+            </footer>
+            <!-- Footer -->
+        </div>
+    
+    
+
+
+
+
+
+
+
+
+
+
+	
+
+		<script src="resturantDashboard.js"></script>
+		<script src="/resturant/resturantsignup/js/bootstrap.min.js"></script>
+		<script src="/resturant/resturantsignup/js/popper.js"></script>
+		<script src="/resturant/resturantsignup/js/jquery.min.js"></script>
+		<script src="/resturant/resturantsignup/js/main.js"></script>
+
+
+		<!-- The core Firebase JS SDK is always required and must be listed first -->
+		<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+
+		<!-- TODO: Add SDKs for Firebase products that you want to use
+			https://firebase.google.com/docs/web/setup#available-libraries -->
+
+		<script>
+		// Your web app's Firebase configuration
+		var firebaseConfig = {
+			apiKey: "AIzaSyCW8AeU6yygM3hiRvqdf7n9s-uJWG8sUag",
+			authDomain: "hackathonn-b9af6.firebaseapp.com",
+			projectId: "hackathonn-b9af6",
+			storageBucket: "hackathonn-b9af6.appspot.com",
+			messagingSenderId: "936998066003",
+			appId: "1:936998066003:web:c645a6ee28854518ba33a6"
+		};
+		// Initialize Firebase
+		firebase.initializeApp(firebaseConfig);
+        
+        OnInit()
+        
+		</script>
+	</body>
+</html>
+

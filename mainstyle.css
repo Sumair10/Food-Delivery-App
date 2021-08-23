@@ -1,0 +1,29 @@
+
+
+
+@media (max-width: 1200px) { }
+@media (max-width: 992px) {  }
+@media (max-width: 768px) { 
+    .span1{
+        font-size:35px !important;
+    }
+    .span2{
+        font-size: 12px !important;
+        line-height: 1px !important;
+    }
+    .card-title{
+        font-size: 20px;
+    }
+    .card-text{
+        font-size: 10px;
+    }
+    .card{
+        padding: 10px !important;
+    }
+    .abc{
+        display: none;
+    }
+ }
+@media (max-width: 576px) {  }
+
+
