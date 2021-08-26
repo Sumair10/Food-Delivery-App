@@ -1,38 +1,56 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-  	<title>Login 09</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Login 09</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap"
+      rel="stylesheet"
+    />
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	
-	<link rel="stylesheet" href="css/style.css">
-	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-	<link rel="stylesheet" href="customerlogin.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-	</head>
-	<body>
-	<section class="ftco-section">
-		<div class="header">
-			<nav class="navbar navbar-expand-md navbar-dark">
-				<div class="container-fluid">
-				  <a class="navbar-brand" href="index.html"><img src="/images/logo.jpg" alt="" width="70px" height="70px"></a>
-				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				  </button>
-		
-				  <div class="collapse navbar-collapse" id="navbarsExample05">
-					<ul class="navbar-nav ml-auto pl-lg-1 pl-0">
-					  <li class="nav-item">
-						<a class="nav-link " href="/index.html">Home</a>
-					  </li>
-					  <li class="nav-item">
-						<a class="nav-link" href="#">Features</a>
-					  </li>
-					  <!-- <li class="nav-item dropdown">
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="customerlogin.css" />
+  </head>
+  <body>
+    <section class="ftco-section">
+      <div class="header">
+        <nav class="navbar navbar-expand-md navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"
+              ><img src="/images/logo.jpg" alt="" width="70px" height="70px"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarsExample05"
+              aria-controls="navbarsExample05"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample05">
+              <ul class="navbar-nav ml-auto pl-lg-1 pl-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <!-- <li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
 						<div class="dropdown-menu" aria-labelledby="dropdown04">
 						  <a class="dropdown-item" href="#">Food Catering</a>
@@ -40,225 +58,242 @@
 						  <a class="dropdown-item" href="#">Wedding &amp; Birthday</a>
 						</div>
 					  </li> -->
-					  <li class="nav-item">
-						<a class="nav-link" href="#">About</a>
-					  </li>
-					  <li class="nav-item">
-						<a class="nav-link" href="#">New</a>
-					  </li>
-					  <li class="nav-item">
-						<a class="nav-link" href="#">Contact us</a>
-					  </li>
-					</ul>
-		
-					
-				  </div>
-				</div>
-			  </nav>
-		</div>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">New</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
 
+      <!-- --------login  form ------------- -->
 
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6 col-lg-4">
+            <div class="login-wrap py-5">
+              <h3 class="text-center mb-0">Welcome</h3>
+              <p class="text-center">
+                Sign in by entering the information below
+              </p>
+              <form action="#" class="login-form">
+                <div class="form-group">
+                  <div
+                    class="
+                      icon
+                      d-flex
+                      align-items-center
+                      justify-content-center
+                    "
+                  >
+                    <span class="fa fa-user"></span>
+                  </div>
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email"
+                    required
+                    id="email"
+                  />
+                </div>
+                <div class="form-group">
+                  <div
+                    class="
+                      icon
+                      d-flex
+                      align-items-center
+                      justify-content-center
+                    "
+                  >
+                    <span class="fa fa-lock"></span>
+                  </div>
+                  <input
+                    type="password"
+                    class="form-control"
+                    placeholder="Password"
+                    required
+                    id="password"
+                  />
+                </div>
+                <div class="form-group d-md-flex">
+                  <div class="w-100 text-md-right">
+                    <a href="#">Forgot Password</a>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <button
+                    type="button"
+                    class="btn form-control submit px-3"
+                    onclick="signin()"
+                  >
+                    Sign in
+                  </button>
+                </div>
+              </form>
+              <div class="w-100 text-center mt-4 text">
+                <p class="mb-0">Don't have an account?</p>
+                <a href="/customer/customersignup/customersignup.html"
+                  >Sign Up</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-		<!-- --------login  form ------------- -->
+      <!-- Footer -->
+      <footer class="mid3 page-footer font-small mdb-color pt-4">
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left">
+          <!-- Footer links -->
+          <div class="row text-center text-md-left mt-3 pb-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Company name</h6>
+              <p>
+                Here you can use rows and columns to organize your footer
+                content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit.
+              </p>
+            </div>
+            <!-- Grid column -->
 
+            <hr class="w-100 clearfix d-md-none" />
 
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-md-6 col-lg-4">
-					<div class="login-wrap py-5">
-						<h3 class="text-center mb-0">Welcome</h3>
-						<p class="text-center">Sign in by entering the information below</p>
-								<form action="#" class="login-form">
-		      		<div class="form-group">
-		      			<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-user"></span></div>
-		      			<input type="email" class="form-control" placeholder="Email" required id="email">
-		      		</div>
-	            <div class="form-group">
-	            	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-lock"></span></div>
-	              <input type="password" class="form-control" placeholder="Password" required id="password">
-	            </div>
-	            <div class="form-group d-md-flex">
-								<div class="w-100 text-md-right">
-									<a href="#">Forgot Password</a>
-								</div>
-	            </div>
-	            <div class="form-group">
-	            	<button type="button" class="btn form-control  submit px-3" onclick="signin()">Sign in</button>
-	            </div>
-	          </form>
-	          <div class="w-100 text-center mt-4 text">
-	          	<p class="mb-0">Don't have an account?</p>
-		          <a href="/customer/customersignup/customersignup.html">Sign Up</a>
-	          </div>
-	        </div>
-				</div>
-			</div>
-		</div>
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+              <p>
+                <a href="#!">HTML</a>
+              </p>
+              <p>
+                <a href="#!">CSS</a>
+              </p>
+              <p>
+                <a href="#!">BOOTSTRAP</a>
+              </p>
+              <p>
+                <a href="#!">JAVASCRIPT</a>
+              </p>
+            </div>
+            <!-- Grid column -->
 
+            <hr class="w-100 clearfix d-md-none" />
 
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+              <p>
+                <a href="#!">Your Account</a>
+              </p>
+              <p>
+                <a href="#!">Become an Affiliate</a>
+              </p>
+              <p>
+                <a href="#!">Shipping Rates</a>
+              </p>
+              <p>
+                <a href="#!">Help</a>
+              </p>
+            </div>
 
-			<!-- Footer -->
-<footer class="mid3 page-footer font-small mdb-color pt-4">
+            <!-- Grid column -->
+            <hr class="w-100 clearfix d-md-none" />
 
-	<!-- Footer Links -->
-	<div class="container text-center text-md-left">
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+              <p><i class="fas fa-home mr-3"></i> Karachi, Sindh, Pakistan</p>
+              <p><i class="fas fa-envelope mr-3"></i> sumairzahid@gmail.com</p>
+              <p><i class="fas fa-phone mr-3"></i> + 92 340 2745818</p>
+              <p><i class="fas fa-print mr-3"></i> + 92 332 3206471</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Footer links -->
 
-	<!-- Footer links -->
-	<div class="row text-center text-md-left mt-3 pb-3">
+          <hr />
 
-		<!-- Grid column -->
-		<div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-		<h6 class="text-uppercase mb-4 font-weight-bold">Company name</h6>
-		<p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-			consectetur
-			adipisicing elit.</p>
-		</div>
-		<!-- Grid column -->
+          <!-- Grid row -->
+          <div class="row d-flex align-items-center">
+            <!-- Grid column -->
+            <div class="col-md-7 col-lg-8">
+              <!--Copyright-->
+              <p class="text-center text-md-left">
+                © 2020 Copyright
+                <a href="https://mdbootstrap.com/"> </a>
+              </p>
+            </div>
+            <!-- Grid column -->
 
-		<hr class="w-100 clearfix d-md-none">
+            <!-- Grid column -->
+            <div class="col-md-5 col-lg-4 ml-lg-0">
+              <!-- Social buttons -->
+              <div class="text-center text-md-right">
+                <ul class="list-unstyled list-inline">
+                  <li class="list-inline-item">
+                    <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                      <i class="fab fa-google-plus-g"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                      <i class="fab fa-linkedin-in"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+        <!-- Footer Links -->
+      </footer>
+    </section>
 
-		<!-- Grid column -->
-		<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-		<h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
-		<p>
-			<a href="#!">HTML</a>
-		</p>
-		<p>
-			<a href="#!">CSS</a>
-		</p>
-		<p>
-			<a href="#!">BOOTSTRAP</a>
-		</p>
-		<p>
-			<a href="#!">JAVASCRIPT</a>
-		</p>
-		</div>
-		<!-- Grid column -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="customerlogin.js"></script>
 
-		<hr class="w-100 clearfix d-md-none">
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
 
-		<!-- Grid column -->
-		<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-		<h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
-		<p>
-			<a href="#!">Your Account</a>
-		</p>
-		<p>
-			<a href="#!">Become an Affiliate</a>
-		</p>
-		<p>
-			<a href="#!">Shipping Rates</a>
-		</p>
-		<p>
-			<a href="#!">Help</a>
-		</p>
-		</div>
-
-		<!-- Grid column -->
-		<hr class="w-100 clearfix d-md-none">
-
-		<!-- Grid column -->
-		<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-		<h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-		<p>
-			<i class="fas fa-home mr-3"></i> Karachi, Sindh, Pakistan</p>
-		<p>
-			<i class="fas fa-envelope mr-3"></i> sumairzahid@gmail.com</p>
-		<p>
-			<i class="fas fa-phone mr-3"></i> + 92 340 2745818</p>
-		<p>
-			<i class="fas fa-print mr-3"></i> + 92 332 3206471</p>
-		</div>
-		<!-- Grid column -->
-
-	</div>
-	<!-- Footer links -->
-
-	<hr>
-
-	<!-- Grid row -->
-	<div class="row d-flex align-items-center">
-
-		<!-- Grid column -->
-		<div class="col-md-7 col-lg-8">
-
-		<!--Copyright-->
-		<p class="text-center text-md-left">© 2020 Copyright
-			<a href="https://mdbootstrap.com/">
-			</a>
-		</p>
-
-		</div>
-		<!-- Grid column -->
-
-		<!-- Grid column -->
-		<div class="col-md-5 col-lg-4 ml-lg-0">
-
-		<!-- Social buttons -->
-		<div class="text-center text-md-right">
-			<ul class="list-unstyled list-inline">
-			<li class="list-inline-item">
-				<a class="btn-floating btn-sm rgba-white-slight mx-1">
-				<i class="fab fa-facebook-f"></i>
-				</a>
-			</li>
-			<li class="list-inline-item">
-				<a class="btn-floating btn-sm rgba-white-slight mx-1">
-				<i class="fab fa-twitter"></i>
-				</a>
-			</li>
-			<li class="list-inline-item">
-				<a class="btn-floating btn-sm rgba-white-slight mx-1">
-				<i class="fab fa-google-plus-g"></i>
-				</a>
-			</li>
-			<li class="list-inline-item">
-				<a class="btn-floating btn-sm rgba-white-slight mx-1">
-				<i class="fab fa-linkedin-in"></i>
-				</a>
-			</li>
-			</ul>
-		</div>
-
-		</div>
-		<!-- Grid column -->
-
-	</div>
-	<!-- Grid row -->
-
-	</div>
-	<!-- Footer Links -->
-
-	</footer>
-	</section>
-
-		<script src="js/jquery.min.js"></script>
-		<script src="js/popper.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/main.js"></script>
-		<script src="customerlogin.js"></script>
-
-  
-		<!-- The core Firebase JS SDK is always required and must be listed first -->
-		<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
-		<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
-
-		<!-- TODO: Add SDKs for Firebase products that you want to use
+    <!-- TODO: Add SDKs for Firebase products that you want to use
 			https://firebase.google.com/docs/web/setup#available-libraries -->
 
-		<script>
-		// Your web app's Firebase configuration
-		var firebaseConfig = {
-			apiKey: "AIzaSyCW8AeU6yygM3hiRvqdf7n9s-uJWG8sUag",
-			authDomain: "hackathonn-b9af6.firebaseapp.com",
-			projectId: "hackathonn-b9af6",
-			storageBucket: "hackathonn-b9af6.appspot.com",
-			messagingSenderId: "936998066003",
-			appId: "1:936998066003:web:c645a6ee28854518ba33a6"
-		};
-		// Initialize Firebase
-		firebase.initializeApp(firebaseConfig);
-		</script>
-	</body>
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCW8AeU6yygM3hiRvqdf7n9s-uJWG8sUag",
+        authDomain: "hackathonn-b9af6.firebaseapp.com",
+        projectId: "hackathonn-b9af6",
+        storageBucket: "hackathonn-b9af6.appspot.com",
+        messagingSenderId: "936998066003",
+        appId: "1:936998066003:web:c645a6ee28854518ba33a6",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </body>
 </html>
-

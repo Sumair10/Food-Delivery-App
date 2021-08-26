@@ -11,17 +11,17 @@ function signin()
         // Signed in
         var user = userCredential.user;
         console.log("success : " , user)
-        
+        swal({
+            title: "Yohoo!!",
+            text: "User login successful",
+            icon: "success",
+          })
+        .then((ok)=>{
+            window.location = "/customer/customerDashboard/customerDashboard.html";
+        })
         
     })
-    swal({
-        title: "Yohoo!!",
-        text: "User login successful",
-        icon: "success",
-      })
-    .then((ok)=>{
-        window.location = "/customer/customerDashboard/customerDashboard.html";
-    })
+   
 
     .catch((error) => {
         var errorCode = error.code;

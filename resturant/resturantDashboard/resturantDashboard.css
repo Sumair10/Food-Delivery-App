@@ -168,122 +168,237 @@ text-shadow:
 }
 
 
+/* ---------footer----------- */
+.innerMid1{
+  margin: 20px 0px;
+}
+.mid3{
+  color: rgb(194, 189, 189);
+  width: 100%;
+  background: rgb(0, 0, 0);
+  min-height: 60vh;
+  border-top: 0.2rem  solid #fff;
+  border-bottom: 0.2rem  solid #fff;
+  /* padding: 0.4em; */
+  box-shadow: 0 1rem #fff,
+              0 1rem #fff,
+              0 0 1rem #bc13fe,
+              0 0 1rem #bc13fe,
+              0 0 1rem #bc13fe,
+              inset 0 0 0.5rem #bc13fe;
+}
+
 
 /* ------------------- profiles -------------------- */
 
-.team-boxed {
-    color:#313437;
-    /* background-color:#eef4f7; */
-  }
-  
-  .team-boxed p {
-    color:#7d8285;
-  }
-  
-  .team-boxed h2 {
-    font-weight:bold;
-    margin-bottom:40px;
-    padding-top:40px;
-    color:inherit;
-  }
-  
-  @media (max-width:767px) {
-    .team-boxed h2 {
-      margin-bottom:25px;
-      padding-top:25px;
-      font-size:24px;
-    }
-  }
-  
-  .team-boxed .intro {
-    font-size:16px;
-    max-width:500px;
-    margin:0 auto;
-  }
-  
-  .team-boxed .intro p {
-    margin-bottom:0;
-  }
-  
-  .team-boxed .people {
-    padding:30px 0;
-  }
-  
-  .team-boxed .item {
-    text-align:center;
-  }
-  
-  .team-boxed .item .box {
-    text-align:center;
-    padding:30px;
-    background-color:#fff;
-    margin-bottom:30px;
-  }
-  
-  .team-boxed .item .name {
-    font-weight:bold;
-    margin-top:28px;
-    margin-bottom:8px;
-    color:inherit;
-  }
-  
-  .team-boxed .item .title {
-    text-transform:uppercase;
-    font-weight:bold;
-    color:#d0d0d0;
-    letter-spacing:2px;
-    font-size:13px;
-  }
-  
-  .team-boxed .item .description {
-    font-size:15px;
-    margin-top:15px;
-    margin-bottom:20px;
-  }
-  
-  .team-boxed .item img {
-    max-width:160px;
-  }
-  
-  .team-boxed .social {
-    font-size:18px;
-    color:#a2a8ae;
-  }
-  
-  .team-boxed .social a {
-    color:inherit;
-    margin:0 10px;
-    display:inline-block;
-    opacity:0.7;
-  }
-  
-  .team-boxed .social a:hover {
-    opacity:1;
-  }
-  
-  
 
-
-
-
-
-
-
-/* ---------footer----------- */
-
-.mid3{
-    color: rgb(194, 189, 189);
-    width: 100%;
-    background: rgb(0, 0, 0);
-    min-height: 60vh;
-    border-top: 0.2rem  solid #fff;
-    border-bottom: 0.2rem  solid #fff;
-    /* padding: 0.4em; */
-    box-shadow: 0 1rem #fff,
-                0 1rem #fff,
-                0 0 1rem #bc13fe,
-                0 0 1rem #bc13fe,
-                0 0 1rem #bc13fe,
-                inset 0 0 0.5rem #bc13fe;
+.mydiv {
+  margin-top: 50px;
+  margin-bottom: 50px
 }
 
+.cross {
+  font-size: 10px
+}
+
+.padding-0 {
+  padding-right: 5px;
+  padding-left: 5px
+}
+
+.img-style {
+  margin-left: -11px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  max-width: 104% !important
+}
+
+.m-t-20 {
+  margin-top: 20px
+}
+
+.bbb_background {
+  background-color: #E0E0E0 !important
+}
+
+.ribbon {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: absolute
+}
+
+.ribbon span {
+  position: absolute;
+  display: block;
+  width: 34px;
+  border-radius: 50%;
+  padding: 8px 0;
+  background-color: #3498db;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+  color: #fff;
+  font: 100 18px/1 'Lato', sans-serif;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+  text-transform: uppercase;
+  text-align: center
+}
+
+.ribbon-top-right {
+  top: -10px;
+  right: -10px
+}
+
+.ribbon-top-right::before,
+.ribbon-top-right::after {
+  border-top-color: transparent;
+  border-right-color: transparent
+}
+
+.ribbon-top-right::before {
+  top: 0;
+  left: 17px
+}
+
+.ribbon-top-right::after {
+  bottom: 17px;
+  right: 0
+}
+
+.sold_stars i {
+  color: orange
+}
+
+.ribbon-top-right span {
+  right: 17px;
+  top: 17px
+}
+
+div {
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+.bbb_deals_featured {
+  width: 100%
+}
+
+.bbb_deals {
+  width: 100%;
+  margin-right: 7%;
+  padding-top: 80px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 34px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-top: 0px
+}
+
+.bbb_deals_title {
+  position: absolute;
+  top: 10px;
+  left: 22px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000
+}
+
+.bbb_deals_slider_container {
+  width: 100%
+}
+
+.bbb_deals_item {
+  width: 100% !important
+}
+
+.bbb_deals_image {
+  width: 100%
+}
+
+.bbb_deals_image img {
+  width: 100%
+}
+
+.bbb_deals_content {
+  margin-top: 33px
+}
+
+.bbb_deals_item_category a {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5)
+}
+
+.bbb_deals_item_price_a {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6)
+}
+
+.bbb_deals_item_price_a strike {
+  color: red
+}
+
+.bbb_deals_item_name {
+  font-size: 24px;
+  font-weight: 400;
+  color: #000000
+}
+
+.bbb_deals_item_price {
+  font-size: 24px;
+  font-weight: 500;
+  color: #6d6e73
+}
+
+.available {
+  margin-top: 19px
+}
+
+.available_title {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400
+}
+
+.available_title span {
+  font-weight: 700
+}
+
+@media only screen and (max-width: 991px) {
+  .bbb_deals {
+      width: 100%;
+      margin-right: 0px
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .bbb_deals {
+      padding-left: 15px;
+      padding-right: 15px
+  }
+
+  .bbb_deals_title {
+      left: 15px;
+      font-size: 16px
+  }
+
+  .bbb_deals_slider_nav_container {
+      right: 5px
+  }
+
+  .bbb_deals_item_name,
+  .bbb_deals_item_price {
+      font-size: 20px
+  }
+}
+
+.bbb_deals{
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  /* min-height: 450px; */
+}
